@@ -1,0 +1,62 @@
+.p1{
+	background-color: yellowgreen;
+}
+.p2{
+	background-color:blue;
+}
+
+/**Fonts**/
+.title {
+	font-family: 'Abel', sans-serif;
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+/**Images**/
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.myPhoto{
+	border-radius: 10px;
+	height: auto;
+	float:right;
+	width:100%;
+	transition: transform .2s;
+}
+.banner{
+	height: 300px;
+	width: auto;
+}
+
+
+/**Text*/
+h1{
+	color:#024873;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+.separator::before {
+    margin-right: 0.625rem;
+}
+.separator::after {
+    margin-left: 0.625rem;
+}
+
+
+/**Containers**/
+.pMyNav{
+	background-color:#025959;
+	border-radius: 5px;
+}
