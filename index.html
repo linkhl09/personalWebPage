@@ -29,7 +29,7 @@
   <div class="container">
     <!--Banner-->
     <div class="row">
-      <div class="center">
+      <div class="center-images">
         <img class="img-fluid banner" src="img/Banner.png" alt="Banner photo">
       </div>
     </div>
@@ -71,8 +71,7 @@
             and... we all know the design sucks... but I'll try to improve it! (or at least I hope, time will tell).
             Without any more!</p>
           <div class="text-center">よこそう</div>
-          <div class="d-flex justify-content-center"><img class="img-fluid" style="max-height: 150px; width:auto;"
-              src="img/welcome img.png" alt="Thumbs up menhera chan!"></div>
+          <div class="d-flex justify-content-center"><img class="img-fluid" style="max-height: 150px; width:auto;" src="img/welcome img.png" alt="Thumbs up menhera chan!"></div>
         </div>
         <div class="col-md-4 col-sm-12 d-flex align-self-center">
           <img class="myPhoto" src="img/Fotoweb.jpg" alt="Personal pic">
@@ -115,16 +114,9 @@
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
 
+      <br>
       <h4 class="title">Wallpapers</h4>
       <div id="carousel-wp-fav-pics" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -133,7 +125,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-50 center" src="img/img1.jpg" alt="TLOZ fan art">
+            <img class="d-block w-50 center-images" src="img/img1.jpg" alt="TLOZ fan art">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="title">100 years awakening</h5>
               <p>Credits to the autors (I downloaded it a long time ago).</p>
@@ -148,20 +140,32 @@
 
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
       <!--Carousels End-->
-      <h3 class="tittle" >Some websites</h3>
+      <br>
+      <h3 class="title">Some websites</h3>
       <p class="text-justify">Here are my two favorite web sites up to date.Feel free to check them!</p>
       <a class="coolColor btn btn-secondary" target="_blank" href="https://www.crunchyroll.com/es-es">Crunchyroll</a>
       <a class="coolColor btn btn-secondary" target="_blank" href="https://k-on.fandom.com/wiki/K-ON!_Wiki">K-ON! wiki</a>
+      
+      <br>
+      <h3 class="title">Cool videos</h3>
+      <div class="row">
+        <div class="col-md-12 col-lg-4 embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Uj07-YU5cTk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="col-md-12 col-lg-4 embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DF8Ka8Jh0BQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="col-md-12 col-lg-4 embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KA8kz0cEk3g" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      </div>
+      <br>
+      <h3 class="title">My favorite song!</h3>
+      <div class="row d-flex justify-content-center"><audio controls><source src="Fav song.mp3" type="audio/mpeg"></audio></div>
+      <table class="table">
+        <tr><th>Song name</th><td>テレキャスター･ストライプ</td></tr>
+        <tr><th>Artist</th><td>ポルカドットスティングレイ</td></tr>
+        <tr><th>Album</th><td>Zenchi Zennō</td></tr>
+        <tr><th>Year</th><td>2017</td></tr>
+        <tr><th>Genre</th><td>Rock</td></tr>
+      </table>
+
       
 
       <!--Contact me-->
@@ -176,21 +180,22 @@
             <form id="contact-me" name="contactForm">
               <div class="d-flex flex-column  p-2">
                 <label for="name" class="">Name</label>
-                <input type="text" id="name" name="name" class="form-control">
+                <input type="text" id="name" name="name" class="form-control" placeholder="Your name">
               </div>
               <div class="d-flex flex-column p-2">
                 <label for="email" class="">Email</label>
-                <input type="text" id="email" name="email" class="form-control">
+                <input type="text" id="email" name="email" class="form-control" placeholder="example@gmail.com">
               </div>
               <div class="d-flex flex-column p-2">
                 <label for="subject" class="">Subject</label>
-                <input type="text" id="subject" name="subject" class="form-control">
+                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
               </div>
               <div class="d-flex flex-column align-items-stretch p-2">
                 <label for="message" class="">Message</label>
-                <input type="text" id="message" name="message" class="form-control">
+                <textarea id="message" type="text" class="form-control" placeholder="Hi, whats up.."></textarea>
               </div>
             </form>
+            <div class="d-flex  justify-content-end"><button id="Submit" type="submit" class="btn btn-primary coolColor">Submit</button></div>
           </div>
         </div>
       </div>
