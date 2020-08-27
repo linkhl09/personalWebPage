@@ -7,7 +7,7 @@
   <meta name="author" content="Andrés Felipe Hernández León">
   <meta name="keywords" contents="Linkhl,Andrés,Felipe,Hernández">
 
-  <!--Tittle-->
+  <!--Title-->
   <title>Linkhl website</title>
 
   <!--Responsive-->
@@ -36,7 +36,7 @@
 
 
     <!------------------ Navigation bar  ------------------------------>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark pMyNav">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark coolColor">
       <a class="navbar-brand" href="#">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -62,11 +62,11 @@
     <!----------------- Main body ------------------------------------->
     <br>
     <main>
-      <!-- Home-->
+      <!--Home-->
       <div class="row">
         <div class="col-md-8 col-sm-12">
           <h1 class="title">じゃハロー！</h1>
-          <p>My name is Andres Hernandez, but just Andres is ok.<br>
+          <p class="text-justify">My name is Andres Hernandez, but just Andres is ok.<br>
             On this page you can find some things about me, it's not very long as I'm not that interesting,
             and... we all know the design sucks... but I'll try to improve it! (or at least I hope, time will tell).
             Without any more!</p>
@@ -81,18 +81,98 @@
 
       <!--Personal Information-->
 
+
       <!--Academic-->
 
+
       <!--Interest-->
+      <h2 class="title" id="interests">Interests</h2>
+      <p class="text-justify">
+        Here you can find things about me! I like photography and used to take a lot of pictures, the sky ones are my favorites so I'm gonna put some here.
+        Also, as my banner gives a hint I love The legend of zelda series, so there is one fan art picture I found years ago, and a wallpaper of my favorite anime!
+      </p>
+      <h3 class="title">Fav pics!</h3>
+      <!--Carousels start-->
+      <h4 class="title">Mine</h4>
+      <div id="carousel-mine-fav-pics" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/img3.jpg" alt="My window sky view">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="title">Front of my house</h5>
+              <p>This is a picture of the front of my house in the mornings.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/img4.jpg" alt="University sunset">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="title">University sunset</h5>
+              <p>Taken from the 3rd floor of the Lleras building.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <h4 class="title">Wallpapers</h4>
+      <div id="carousel-wp-fav-pics" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-50 center" src="img/img1.jpg" alt="TLOZ fan art">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="title">100 years awakening</h5>
+              <p>Credits to the autors (I downloaded it a long time ago).</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="img/img2.png" alt="Tsumugi kotobuki from k-on!">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="title">Tsumugi from K-ON!</h5>
+              <p>Credits to the autors (I downloaded it a long time ago).</p>
+            </div>
+
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--Carousels End-->
+      <h3 class="tittle" >Some websites</h3>
+      <p class="text-justify">Here are my two favorite web sites up to date.Feel free to check them!</p>
+      <a class="coolColor btn btn-secondary" target="_blank" href="https://www.crunchyroll.com/es-es">Crunchyroll</a>
+      <a class="coolColor btn btn-secondary" target="_blank" href="https://k-on.fandom.com/wiki/K-ON!_Wiki">K-ON! wiki</a>
+      
 
       <!--Contact me-->
+      <br>
       <br>
       <div class="card border-dark">
         <h1 class="card-header title text-center" id="contactForm">Contact Me!</h1>
         <div class="row card-body">
-          <div class="col-sm-12 col-md-4 myPhoto"><img src="img/contactMe.png" alt="Grab a coffee" style="max-width: 300px;"></div>
+          <div class="col-sm-12 col-md-4"><img class="myPhoto" src="img/contactMe.png" alt="Grab a coffee"></div>
           
-          <div class="col-sm-12 col-md-8 card-body">
+          <div class="col-sm-12 col-md-8 p">
             <form id="contact-me" name="contactForm">
               <div class="d-flex flex-column  p-2">
                 <label for="name" class="">Name</label>
@@ -134,9 +214,9 @@
   </div>
 
     <!--Bootstrap scrips-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>  
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
