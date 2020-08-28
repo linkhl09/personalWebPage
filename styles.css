@@ -12,6 +12,9 @@
 body{
 	font-family: 'Ubuntu', sans-serif;
 }
+p{
+	text-align: justify;
+}
 
 
 /**Media**/
@@ -57,9 +60,25 @@ h1{
 }
 
 
+
 /**Containers**/
 .coolColor{
 	background-color:#025959;
 	border-radius: 5px;
+}
+.aboutMe{
+	width:80%;
+}
+.academicCard img{
+	max-height: 250px;
+	width:auto;
+}
+.academicCard{
+	width:100%;
+}
+
+.projects-img{
+	max-height: 280px;
+	width:auto;
 }
 
