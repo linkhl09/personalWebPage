@@ -1,5 +1,5 @@
 # personalWebPage
-This is my personal web page! I just started the develoment, hope you like it :D
+This is my personal web page! Its not the best I know, but I really hope you like it :D
 
 ## URL
 https://linkhl09.github.io/personalWebPage/
